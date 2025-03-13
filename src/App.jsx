@@ -38,11 +38,27 @@ export default function NCRPPortal() {
           <Input type="email" placeholder="Your Email" value={userInfo.email} onChange={(e) => setUserInfo({ ...userInfo, email: e.target.value })} className="mb-4 p-3 border border-gray-300 rounded-lg shadow-sm" />
           <select className="mb-4 w-full p-3 border border-gray-300 rounded-lg shadow-sm" value={userInfo.category} onChange={(e) => setUserInfo({ ...userInfo, category: e.target.value })}>
             <option value="">Select Category</option>
-            <option value="Fraud">Fraud</option>
-            <option value="Harassment">Harassment</option>
-            <option value="Online Scam">Online Scam</option>
-            <option value="Threats">Threats</option>
-            <option value="Financial Fraud">Financial Fraud</option>
+            <option value="Cyber Bullying/Stalking/Sexting">Cyber Bullying/Stalking/Sexting</option>
+            <option value="E-Mail Phishing">E-Mail Phishing</option>
+            <option value="Email Hacking">Email Hacking</option>
+            <option value="Fake/Impersonating Profile">Fake/Impersonating Profile</option>
+            <option value="Impersonating Email">Impersonating Email</option>
+            <option value="Online Job Fraud">Online Job Fraud</option>
+            <option value="Online Matrimonial Fraud">Online Matrimonial Fraud</option>
+            <option value="Profile Hacking">Profile Hacking</option>
+            <option value="Provocative Speech">Provocative Speech</option>
+            <option value="Intimidating Email">Intimidating Email</option>
+            <option value="Business Frauds/Email Takeover">Business Frauds/Email Takeover</option>
+            <option value="Debit/Credit Card Fraud/SIM Swap Fraud">Debit/Credit Card Fraud/SIM Swap Fraud</option>
+            <option value="E-Wallet Related Fraud">E-Wallet Related Fraud</option>
+            <option value="Fraud Call/Vishing">Fraud Call/Vishing</option>
+            <option value="Internet Banking Related Fraud">Internet Banking Related Fraud</option>
+            <option value="Ransomware">Ransomware</option>
+            <option value="Unauthorized Access/Data Breach">Unauthorized Access/Data Breach</option>
+            <option value="Website Related/Defacement">Website Related/Defacement</option>
+            <option value="Cryptocurrency Related Fraud">Cryptocurrency Related Fraud</option>
+            <option value="Online Trafficking">Online Trafficking</option>
+            <option value="Online Gambling">Online Gambling</option>
           </select>
           <Input type="date" value={userInfo.date} onChange={(e) => setUserInfo({ ...userInfo, date: e.target.value })} className="mb-4 p-3 border border-gray-300 rounded-lg shadow-sm" />
           <Input type="time" value={userInfo.time} onChange={(e) => setUserInfo({ ...userInfo, time: e.target.value })} className="mb-4 p-3 border border-gray-300 rounded-lg shadow-sm" />
